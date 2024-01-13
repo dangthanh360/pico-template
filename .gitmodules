@@ -4,3 +4,16 @@
 [submodule "bsp"]
 	path = bsp
 	url = https://github.com/GorgonMeducer/RP2040_BSP.git
+[submodule "picotool"]
+	path = picotool
+	url = https://github.com/raspberrypi/picotool.git
+[submodule "openocd"]
+	path = openocd
+	url = https://github.com/raspberrypi/openocd.git
+	branch = rp2040
+[submodule "picoprobe"]
+	path = picoprobe
+	url = https://github.com/raspberrypi/picoprobe.git
+[submodule "examples"]
+	path = examples
+	url = https://github.com/raspberrypi/pico-examples.git

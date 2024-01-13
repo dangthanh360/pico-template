@@ -1,3 +1,19 @@
+# Add more submodule
+```
+git submodule add https://github.com/raspberrypi/picotool.git picotool
+git submodule add https://github.com/raspberrypi/openocd.git openocd
+git submodule add https://github.com/raspberrypi/picoprobe.git picoprobe
+git submodule add https://github.com/raspberrypi/pico-examples.git examples
+
+```
+
+# Compile
+```
+./compile-tool.sh    
+./compile-example.sh
+```
+
+
 # Pico_Template (v2.2.0)
 An MDK template for Raspberry Pi Pico
 
